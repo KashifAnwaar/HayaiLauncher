@@ -500,7 +500,7 @@ public class SearchActivity extends Activity
 
         if (mShouldOrderByRecents) {
             Collections.sort(mActivityInfos, mRecentOrderComparator);
-        } else if(mShouldOrderByUsages) {
+        } else if (mShouldOrderByUsages) {
             Collections.sort(mActivityInfos, mUsageOrderComparator);
         }
 
